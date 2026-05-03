@@ -8,15 +8,15 @@
 ## 🎯 Objective
 An end-to-end ML project that recommends movies using **Content-Based Filtering (Cosine Similarity)** and predicts ratings using a **Tuned Random Forest** model.
 
-## ✨ Features
-- 🔍 **Find Similar Movies** — Select any movie, get 5–15 similar ones
-- 🏆 **Top Rated Movies** — Browse highest-rated films
-- 🎭 **Browse by Genre** — Filter by Action, Drama, Comedy, etc.
-- 🤖 **ML Rating Prediction** — Predicted rating from Random Forest model
-- 🎨 **Movie Posters** — Auto-fetched via TMDB API (optional)
-- 📊 **Model Info** — Full comparison of all ML models
+##  Features
+-  **Find Similar Movies** — Select any movie, get 5–15 similar ones
+-  **Top Rated Movies** — Browse highest-rated films
+-  **Browse by Genre** — Filter by Action, Drama, Comedy, etc.
+-  **ML Rating Prediction** — Predicted rating from Random Forest model
+-  **Movie Posters** — Auto-fetched via TMDB API (optional)
+-  **Model Info** — Full comparison of all ML models
 
-## 🛠 Tech Stack
+##  Tech Stack
 | Layer | Technology |
 |-------|-----------|
 | ML Models | scikit-learn (LinearRegression, Ridge, Lasso, DecisionTree, RandomForest) |
@@ -25,7 +25,7 @@ An end-to-end ML project that recommends movies using **Content-Based Filtering 
 | Data | MovieLens 100K |
 | Poster API | TMDB (optional) |
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ├── Movie_recommendation_system_FINAL.ipynb  ← Full ML notebook (all 4 modules)
 ├── app.py                                   ← Streamlit live app
@@ -40,7 +40,7 @@ An end-to-end ML project that recommends movies using **Content-Based Filtering 
     └── feature_cols.pkl
 ```
 
-## ▶️ How to Run
+##  How to Run
 
 ### Step 1 — Run the Notebook
 ```bash
@@ -60,19 +60,19 @@ streamlit run app.py
 ```
 App opens at `http://localhost:8501`
 
-## 🌐 Deployment (Streamlit Cloud)
+##  Deployment (Streamlit Cloud)
 
 1. Push to GitHub (include `app_artifacts/` folder)
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your repo → set `app.py` as main file
 4. (Optional) Add `TMDB_API_KEY` in Streamlit Cloud Secrets for movie posters
 
-## 🔑 TMDB API Key (Optional — for Posters)
+##  TMDB API Key (Optional — for Posters)
 1. Register at [themoviedb.org](https://www.themoviedb.org/)
 2. Get a free API key
 3. Add to Streamlit secrets: `TMDB_API_KEY = "your_key_here"`
 
-## 📊 Model Results
+##  Model Results
 
 | Model | RMSE | R² |
 |-------|------|----|
@@ -80,9 +80,9 @@ App opens at `http://localhost:8501`
 | Ridge / Lasso | ~0.99 | ~0.19 |
 | Decision Tree | ~0.96 | ~0.24 |
 | Random Forest | ~0.94 | ~0.27 |
-| **Tuned Random Forest ✅** | **~0.93** | **~0.29** |
+| **Tuned Random Forest ** | **~0.93** | **~0.29** |
 
-## 🔭 Future Scope
+##  Future Scope
 - Collaborative Filtering (SVD, ALS)
 - Neural Collaborative Filtering
 - Hybrid recommendation pipeline
