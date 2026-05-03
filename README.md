@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 Objective
+##  Objective
 An end-to-end ML project that recommends movies using **Content-Based Filtering (Cosine Similarity)** and predicts ratings using a **Tuned Random Forest** model.
 
 ##  Features
